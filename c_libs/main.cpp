@@ -4,6 +4,7 @@
 #include "Integrator.h"
 #include "CUnit.h"
 #include "math.h"
+//#include "DiffIntTest.cpp"
 
 using namespace std;
 
@@ -16,11 +17,13 @@ double xSquareRoot(double x) {
 }
 
 double myfunction(double x) {
-    return 2*x;
+    return sin(x);
 }
 
+
 int main( int argc, const char* argv[] ) {
+    srand((unsigned)time(0));
     Function f = Function(&myfunction, "square");
-    double result = integrate(f,2, 4, 1E-9);
+    double result = differentiate(f,0.1,1E-8);
     cout << result;
 }
