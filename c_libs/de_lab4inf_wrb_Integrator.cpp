@@ -15,7 +15,7 @@ extern "C" {
  * Method:    integrate
  * Signature: (Lde/lab4inf/wrb/Function;DDD)D
  */
-JNIEXPORT jdouble JNICALL Java_de_lab4inf_wrb_Integrator_integrate
+JNIEXPORT jdouble JNICALL Java_diffIntegrate_Integrator_integrate
 (JNIEnv * env, jobject obj, jobject fct, jdouble a, jdouble b, jdouble eps) {
     double dF =0;
     try {
