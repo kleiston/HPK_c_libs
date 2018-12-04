@@ -8,11 +8,15 @@
 using namespace std;
 
 double xSquare(double x) {
-return 2*pow(x,2);
+    return pow(x,2);
+}
+
+double xSquareRoot(double x) {
+    return pow(x,2);
 }
 
 int main( int argc, const char* argv[] ) {
     Function f = Function(&xSquare, "square");
-    double result = integrate(f, 2, 4, 6);
+    double result = differentiate(f,2, 1E-9);
     cout << result;
 }

@@ -26,7 +26,10 @@ bool convergence(double diffOld, double diffNew, double eps) {
 }
 
 double diff(Function& f, double x, double h) {
-  return (f(x+h) - f(x - h))/ 2*h;
+double fXPLUSH = f(x+h);
+double fXMINUS = f(x - h);
+
+  return (fXPLUSH - fXMINUS)/ (2*h);
 }
 
 double differentiate(Function& f, double x, double err) {

@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/c_libs.dir/Integrator.cpp.o"
   "CMakeFiles/c_libs.dir/JavaFunction.cpp.o"
   "CMakeFiles/c_libs.dir/main.cpp.o"
-  "c_libs.pdb"
-  "c_libs"
+  "libc_libs.pdb"
+  "libc_libs.dylib"
 )
 
 # Per-language clean rules from dependency scanning.
