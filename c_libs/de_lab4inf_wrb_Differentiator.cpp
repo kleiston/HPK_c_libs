@@ -16,7 +16,7 @@ extern "C" {
  * Method:    differentiate
  * Signature: (Lde/lab4inf/wrb/Function;DD)D
  */
-JNIEXPORT jdouble JNICALL Java_de_lab4inf_wrb_Differentiator_differentiate
+JNIEXPORT jdouble JNICALL Java_diffIntegrate_Differentiator_differentiate
   (JNIEnv * env, jobject obj, jobject fct, jdouble x, jdouble eps) {
 	double dF =0;
 	    try {
