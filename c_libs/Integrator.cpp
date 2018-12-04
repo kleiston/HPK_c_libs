@@ -11,9 +11,6 @@ double getXj(double a, double h, double j) {
 }
 
 double shortenedSimpsonIntegral(Function& f, double a, double b, double n) {
-	double factor = (b-a)/(6*n);
-	double fa = f(a);
-	double fb = f(b);
 	double sum1;
 	double sum2;
 	double h = (b - a) / n;
@@ -28,7 +25,7 @@ double shortenedSimpsonIntegral(Function& f, double a, double b, double n) {
 	}
 	sum2 *= 4;
 
-	return factor * (fa + fb + sum1 + sum2);
+	return (b-a)/(6*n) * (f(a) + f(b) + sum1 + sum2);
 }
 
 

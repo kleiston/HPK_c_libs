@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/Users/lucashintze/git/HPK_c_libs/c_libs/CUnit.h
+assert.h
+-
+string.h
+-
+stdio.h
+-
+
+/Users/lucashintze/git/HPK_c_libs/c_libs/Differentiator.h
+Function.h
+/Users/lucashintze/git/HPK_c_libs/c_libs/Function.h
+
 /Users/lucashintze/git/HPK_c_libs/c_libs/Function.h
 assert.h
 -
@@ -17,4 +29,18 @@ Integrator.h
 /Users/lucashintze/git/HPK_c_libs/c_libs/Integrator.h
 Function.h
 /Users/lucashintze/git/HPK_c_libs/c_libs/Function.h
+
+/Users/lucashintze/git/HPK_c_libs/c_libs/main.cpp
+iostream
+-
+Function.h
+/Users/lucashintze/git/HPK_c_libs/c_libs/Function.h
+Differentiator.h
+/Users/lucashintze/git/HPK_c_libs/c_libs/Differentiator.h
+Integrator.h
+/Users/lucashintze/git/HPK_c_libs/c_libs/Integrator.h
+CUnit.h
+/Users/lucashintze/git/HPK_c_libs/c_libs/CUnit.h
+math.h
+/Users/lucashintze/git/HPK_c_libs/c_libs/math.h
 
