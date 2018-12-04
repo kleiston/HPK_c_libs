@@ -10,7 +10,7 @@ double getXj(double a, double h, double j) {
 	return a + (h * j);
 }
 
-double shortenedSimpsonIntegral(Function& f, double a, double b, double n) {
+double shortenedSimpsonIntegral(Function& f, double a, double b, double n, double eps) {
 	double sum1;
 	double sum2;
 	double h = (b - a) / n;
@@ -31,7 +31,7 @@ double shortenedSimpsonIntegral(Function& f, double a, double b, double n) {
 
 
 double integrate(Function& f, double a, double b, double eps) {
-	return shortenedSimpsonIntegral(f, a, b, eps);
+	return shortenedSimpsonIntegral(f, a, b, 5, eps);
 }
 
 
