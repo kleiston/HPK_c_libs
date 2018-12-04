@@ -33,9 +33,9 @@
 								</inputType>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.macosx.lib.debug.1974554576" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.macosx.lib.debug">
-								<option id="gnu.both.asm.option.include.paths.1818686248" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include"/>
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include/darwin"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.both.asm.option.include.paths.1818686248" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include"/>
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include/darwin"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1477820181" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -43,18 +43,18 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.lib.debug.1381813403" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.lib.debug">
 								<option id="gnu.cpp.compiler.macosx.lib.debug.option.optimization.level.1569286790" name="Optimization Level" superClass="gnu.cpp.compiler.macosx.lib.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.macosx.lib.debug.option.debugging.level.933256507" name="Debug Level" superClass="gnu.cpp.compiler.macosx.lib.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
-								<option id="gnu.cpp.compiler.option.include.paths.1470433712" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include"/>
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include/darwin"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.1470433712" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include"/>
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include/darwin"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1156617370" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.lib.debug.1803713843" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.lib.debug">
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.macosx.lib.debug.option.optimization.level.1863704702" name="Optimization Level" superClass="gnu.c.compiler.macosx.lib.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.macosx.lib.debug.option.debugging.level.1202399944" name="Debug Level" superClass="gnu.c.compiler.macosx.lib.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
-								<option id="gnu.c.compiler.option.include.paths.849215786" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include"/>
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include/darwin"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.849215786" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include"/>
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include/darwin"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.539112554" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
@@ -101,9 +101,9 @@
 								</inputType>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.macosx.lib.release.990958965" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.macosx.lib.release">
-								<option id="gnu.both.asm.option.include.paths.509337163" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include"/>
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include/darwin"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.both.asm.option.include.paths.509337163" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include"/>
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include/darwin"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.346897110" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -111,9 +111,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.lib.release.1621196743" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.lib.release">
 								<option id="gnu.cpp.compiler.macosx.lib.release.option.optimization.level.352213643" name="Optimization Level" superClass="gnu.cpp.compiler.macosx.lib.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.macosx.lib.release.option.debugging.level.2088162264" name="Debug Level" superClass="gnu.cpp.compiler.macosx.lib.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
-								<option id="gnu.cpp.compiler.option.include.paths.210999786" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include"/>
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include/darwin"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.include.paths.210999786" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include"/>
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include/darwin"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.other.pic.1416517944" name="Position Independent Code (-fPIC)" superClass="gnu.cpp.compiler.option.other.pic" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.239099645" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
@@ -121,9 +121,9 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.lib.release.1648474503" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.lib.release">
 								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.macosx.lib.release.option.optimization.level.1589353718" name="Optimization Level" superClass="gnu.c.compiler.macosx.lib.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
 								<option id="gnu.c.compiler.macosx.lib.release.option.debugging.level.243105917" name="Debug Level" superClass="gnu.c.compiler.macosx.lib.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
-								<option id="gnu.c.compiler.option.include.paths.1423846875" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include"/>
-									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/include/darwin"/>
+								<option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.c.compiler.option.include.paths.1423846875" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include"/>
+									<listOptionValue builtIn="false" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/include/darwin"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.680206677" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
 							</tool>
