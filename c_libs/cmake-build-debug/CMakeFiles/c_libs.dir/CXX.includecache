@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lucashintze/git/HPK_c_libs/c_libs/Function.h
+assert.h
+-
+
+/Users/lucashintze/git/HPK_c_libs/c_libs/Integrator.cpp
+Integrator.h
+/Users/lucashintze/git/HPK_c_libs/c_libs/Integrator.h
+
+/Users/lucashintze/git/HPK_c_libs/c_libs/Integrator.h
+Function.h
+/Users/lucashintze/git/HPK_c_libs/c_libs/Function.h
+

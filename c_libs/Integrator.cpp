@@ -34,14 +34,7 @@ double shortenedSimpsonIntegral(Function& f, double a, double b, double n) {
 
 
 double integrate(Function& f, double a, double b, double eps) {
-
-	double test = f(2);
-
-	do {
-
-	} while(0);
-
-	return test;
+	return shortenedSimpsonIntegral(f, a, b, eps);
 }
 
 
