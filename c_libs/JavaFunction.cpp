@@ -14,7 +14,7 @@ JavaFunction::JavaFunction(JNIEnv *env,jobject instance):Function(){
 	array = env-> NewDoubleArray(1);
 	jclass clazz = env->GetObjectClass(instance);
 	fct = env->GetMethodID(clazz, "eval", "([D)D");
-	jname = 'kaiTest';
+	//jname = "kaiTest";
 
 }
 

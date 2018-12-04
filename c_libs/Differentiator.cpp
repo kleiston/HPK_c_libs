@@ -5,4 +5,11 @@
  *      Author: Kai
  */
 
+#include "Differentiator.h"
+
+double differentiate(Function& f, double x, double err) {
+return f(x);
+}
+
+
 
