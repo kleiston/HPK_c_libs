@@ -11,28 +11,6 @@
 #define EPS 1.E-8
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 int difSinTest(int argc, char** argv) {
     Function f = Function(sin);
     for(double i = 0; i <= 2; i += 0.5) {
