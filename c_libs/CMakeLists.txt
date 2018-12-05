@@ -9,6 +9,21 @@ include_directories(/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/
 
 
 
+add_executable(c_exec
+        CUnit.c
+        CUnit.h
+        de_lab4inf_wrb_Differentiator.cpp
+        de_lab4inf_wrb_Integrator.cpp
+        Differentiator.cpp
+        Differentiator.h
+        Function.cpp
+        Function.h
+        Integrator.cpp
+        Integrator.h
+        JavaFunction.cpp
+        JavaFunction.h
+        main.cpp)
+
 
 add_library(c_libs SHARED
         CUnit.c
