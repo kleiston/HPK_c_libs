@@ -8,7 +8,30 @@
 #include "Integrator.h"
 #include "CUnit.h"
 
-#define EPS 1.E-6
+#define EPS 1.E-8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 int difSinTest(int argc, char** argv) {
     Function f = Function(sin);
@@ -46,22 +69,14 @@ int integrateSinTest(int argc, char** argv) {
 }
 
 int integrateExpTest(int argc, char **argv) {
-    double dy[5];
+    double res[] = {1.71828182845905, 4.67077427047160, 12.6964808242570,34.5126131099566, 93.8150090694324};
     int counter = 0;
 
     Function f = Function(exp);
 
-    for(double i = 0; i <= 4; i += 1.) {
-        dy[counter] = integrate(f,i,i+1.,EPS);
-        counter++;
+    for(int i = 0; i <= 4; i += 1) {
+        assertEqualsF(integrate(f, i, i + 1., EPS),res[i],EPS);
     }
-
-    assertEqualsF(dy[0], (double)1.71828182845905, EPS);
-    assertEqualsF(dy[1], (double)4.67077427047160, EPS);
-    assertEqualsF(dy[2], (double)12.6964808242570, EPS);
-    assertEqualsF(dy[3], (double)34.5126131099566, EPS);
-    assertEqualsF(dy[4], (double)93.8150090694324, EPS);
-
     return 0;
 }
 
