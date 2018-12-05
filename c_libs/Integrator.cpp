@@ -7,43 +7,32 @@
 #include "Integrator.h"
 #include <math.h>
 
-double getXj(double a, double h, double j) {
-	return a + (h * j);
+int maxSteps = 12;
+bool convergenceIntegrator(double resOld, double resNew, int step, double eps) {
+	double differenceIntegrated = fabs(resOld-resNew);
+	if (step > maxSteps) throw "no convergence";
+	return eps > differenceIntegrated;
 }
-
-double shortenedSimpsonIntegral(Function& f, double a, double b, double n) {
-	double sum1;
-	double sum2;
-	double h = (b - a) / n;
-
-	for (int j = 1; j <= n-1; j++) {
-		sum1 += f(getXj(a, h, j));
-	}
-	sum1 *= 2;
-
-	for (int j = 0; j <= n-1; j++) {
-		sum2 += f((getXj(a, h, j) + getXj(a, h, j+1))/2);
-	}
-	sum2 *= 4;
-
-	return (b-a)/(6*n) * (f(a) + f(b) + sum1 + sum2);
-}
-/*
-bool convergence(double oldRes, double newRes, double eps) {
-	double differenceNew = fabs(oldRes-newRes);
-	if (difference != 0 && difference < differenceNew) throw "no convergence";
-	difference = differenceNew;
-	return eps > difference;
-}
- */
 
 double integrate(Function& f, double a, double b, double eps) {
-	int n = 256;
-	double x1 = shortenedSimpsonIntegral(f, a, b, n);
-	double x2 = 0;
+	int n = 1, counter = 0;
+	double resOld, resNew, fa = f(a), fb = f(b), h, sum1, sum2;
+
 	do {
-		if (x2 != 0) x1 = x2;
-		n/=2;
-		x2 = shortenedSimpsonIntegral(f, a, b, n);
-	} while (0);
+		n *= 2;
+		h = (b-a)/n;
+		resOld = resNew;
+		sum1 = 0;
+		sum2 = 0;
+
+		for (int j = 0; j < n; j++) {
+			sum2 += f(((a + h * j) + (a + h * (j+1)))/2);
+			if (j==0) continue;
+			sum1 += f(a + h * j);
+		}
+
+		resNew = (h/6) * (fa + fb + 2 * sum1 + 4*  sum2);
+
+	} while(!convergenceIntegrator(resOld, resNew, ++counter, eps));
+	return resNew;
 }

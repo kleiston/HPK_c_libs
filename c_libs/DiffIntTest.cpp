@@ -38,7 +38,7 @@ int difSqrtTest(int argc, char** argv) {
 }
 
 int integrateSinTest(int argc, char** argv) {
-    double results[] = { 0.45970, 0.95645, 0.57385, -0.33635, -0.93731};
+    double results[] = { 0.459697694, 0.956449142, 0.573845660, -0.33634887, -0.93730580};
     Function f = Function(sin);
     for(int i = 0; i <= 4; i += 1) {
         assertEqualsF(integrate(f,i,i+1,EPS), results[i], EPS);
