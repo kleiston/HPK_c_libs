@@ -5,12 +5,13 @@
  *      Author: Kai
  */
 #include "Integrator.h"
+#include <math.h>
 
 double getXj(double a, double h, double j) {
 	return a + (h * j);
 }
 
-double shortenedSimpsonIntegral(Function& f, double a, double b, double n, double eps) {
+double shortenedSimpsonIntegral(Function& f, double a, double b, double n) {
 	double sum1;
 	double sum2;
 	double h = (b - a) / n;
@@ -28,11 +29,22 @@ double shortenedSimpsonIntegral(Function& f, double a, double b, double n, doubl
 	return (b-a)/(6*n) * (f(a) + f(b) + sum1 + sum2);
 }
 
+double difference = 0;
 
-
-double integrate(Function& f, double a, double b, double eps) {
-	return shortenedSimpsonIntegral(f, a, b, 5, eps);
+bool convergence(double oldRes, double newRes, double eps) {
+	double differenceNew = fabs(oldRes-newRes);
+	if (difference != 0 && difference < differenceNew) throw "no convergence";
+	difference = differenceNew;
+	return eps > difference;
 }
 
-
-
+double integrate(Function& f, double a, double b, double eps) {
+	int n = 256;
+	double x1 = shortenedSimpsonIntegral(f, a, b, n);
+	double x2 = 0;
+	do {
+		if (x2 != 0) x1 = x2;
+		n/=2;
+		x2 = shortenedSimpsonIntegral(f, a, b, n);
+	} while (!convergence(x1, x2, eps));
+}
