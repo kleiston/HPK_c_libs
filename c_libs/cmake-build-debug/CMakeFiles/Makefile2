@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug
 CMakeFiles/c_libs.dir/all:
 	$(MAKE) -f CMakeFiles/c_libs.dir/build.make CMakeFiles/c_libs.dir/depend
 	$(MAKE) -f CMakeFiles/c_libs.dir/build.make CMakeFiles/c_libs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18 "Built target c_libs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target c_libs"
 .PHONY : CMakeFiles/c_libs.dir/all
 
 # Include target in all.
@@ -98,43 +98,6 @@ CMakeFiles/c_libs.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/c_libs.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/c_exec.dir
-
-# All Build rule for target.
-CMakeFiles/c_exec.dir/all:
-	$(MAKE) -f CMakeFiles/c_exec.dir/build.make CMakeFiles/c_exec.dir/depend
-	$(MAKE) -f CMakeFiles/c_exec.dir/build.make CMakeFiles/c_exec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target c_exec"
-.PHONY : CMakeFiles/c_exec.dir/all
-
-# Include target in all.
-all: CMakeFiles/c_exec.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/c_exec.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles 9
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/c_exec.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/c_exec.dir/rule
-
-# Convenience name for target.
-c_exec: CMakeFiles/c_exec.dir/rule
-
-.PHONY : c_exec
-
-# clean rule for target.
-CMakeFiles/c_exec.dir/clean:
-	$(MAKE) -f CMakeFiles/c_exec.dir/build.make CMakeFiles/c_exec.dir/clean
-.PHONY : CMakeFiles/c_exec.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/c_exec.dir/clean
 
 .PHONY : clean
 

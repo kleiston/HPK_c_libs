@@ -28,15 +28,14 @@ double shortenedSimpsonIntegral(Function& f, double a, double b, double n) {
 
 	return (b-a)/(6*n) * (f(a) + f(b) + sum1 + sum2);
 }
-
-double difference = 0;
-
+/*
 bool convergence(double oldRes, double newRes, double eps) {
 	double differenceNew = fabs(oldRes-newRes);
 	if (difference != 0 && difference < differenceNew) throw "no convergence";
 	difference = differenceNew;
 	return eps > difference;
 }
+ */
 
 double integrate(Function& f, double a, double b, double eps) {
 	int n = 256;
@@ -46,5 +45,5 @@ double integrate(Function& f, double a, double b, double eps) {
 		if (x2 != 0) x1 = x2;
 		n/=2;
 		x2 = shortenedSimpsonIntegral(f, a, b, n);
-	} while (!convergence(x1, x2, eps));
+	} while (0);
 }
