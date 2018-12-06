@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Kai/CLionProjects/HPK_c_libs/c_libs
+CMAKE_SOURCE_DIR = /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/c_libs.dir/depend.make
@@ -59,107 +59,107 @@ include CMakeFiles/c_libs.dir/flags.make
 
 CMakeFiles/c_libs.dir/CUnit.c.o: CMakeFiles/c_libs.dir/flags.make
 CMakeFiles/c_libs.dir/CUnit.c.o: ../CUnit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_libs.dir/CUnit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_libs.dir/CUnit.c.o   -c /Users/Kai/CLionProjects/HPK_c_libs/c_libs/CUnit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_libs.dir/CUnit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_libs.dir/CUnit.c.o   -c /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/CUnit.c
 
 CMakeFiles/c_libs.dir/CUnit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_libs.dir/CUnit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Kai/CLionProjects/HPK_c_libs/c_libs/CUnit.c > CMakeFiles/c_libs.dir/CUnit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/CUnit.c > CMakeFiles/c_libs.dir/CUnit.c.i
 
 CMakeFiles/c_libs.dir/CUnit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_libs.dir/CUnit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Kai/CLionProjects/HPK_c_libs/c_libs/CUnit.c -o CMakeFiles/c_libs.dir/CUnit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/CUnit.c -o CMakeFiles/c_libs.dir/CUnit.c.s
 
 CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.o: CMakeFiles/c_libs.dir/flags.make
 CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.o: ../de_lab4inf_wrb_Differentiator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.o -c /Users/Kai/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Differentiator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.o -c /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Differentiator.cpp
 
 CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kai/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Differentiator.cpp > CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Differentiator.cpp > CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.i
 
 CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kai/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Differentiator.cpp -o CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Differentiator.cpp -o CMakeFiles/c_libs.dir/de_lab4inf_wrb_Differentiator.cpp.s
 
 CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.o: CMakeFiles/c_libs.dir/flags.make
 CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.o: ../de_lab4inf_wrb_Integrator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.o -c /Users/Kai/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Integrator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.o -c /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Integrator.cpp
 
 CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kai/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Integrator.cpp > CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Integrator.cpp > CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.i
 
 CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kai/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Integrator.cpp -o CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/de_lab4inf_wrb_Integrator.cpp -o CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.s
 
 CMakeFiles/c_libs.dir/Differentiator.cpp.o: CMakeFiles/c_libs.dir/flags.make
 CMakeFiles/c_libs.dir/Differentiator.cpp.o: ../Differentiator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c_libs.dir/Differentiator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/Differentiator.cpp.o -c /Users/Kai/CLionProjects/HPK_c_libs/c_libs/Differentiator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/c_libs.dir/Differentiator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/Differentiator.cpp.o -c /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/Differentiator.cpp
 
 CMakeFiles/c_libs.dir/Differentiator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_libs.dir/Differentiator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kai/CLionProjects/HPK_c_libs/c_libs/Differentiator.cpp > CMakeFiles/c_libs.dir/Differentiator.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/Differentiator.cpp > CMakeFiles/c_libs.dir/Differentiator.cpp.i
 
 CMakeFiles/c_libs.dir/Differentiator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_libs.dir/Differentiator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kai/CLionProjects/HPK_c_libs/c_libs/Differentiator.cpp -o CMakeFiles/c_libs.dir/Differentiator.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/Differentiator.cpp -o CMakeFiles/c_libs.dir/Differentiator.cpp.s
 
 CMakeFiles/c_libs.dir/Function.cpp.o: CMakeFiles/c_libs.dir/flags.make
 CMakeFiles/c_libs.dir/Function.cpp.o: ../Function.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/c_libs.dir/Function.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/Function.cpp.o -c /Users/Kai/CLionProjects/HPK_c_libs/c_libs/Function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/c_libs.dir/Function.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/Function.cpp.o -c /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/Function.cpp
 
 CMakeFiles/c_libs.dir/Function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_libs.dir/Function.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kai/CLionProjects/HPK_c_libs/c_libs/Function.cpp > CMakeFiles/c_libs.dir/Function.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/Function.cpp > CMakeFiles/c_libs.dir/Function.cpp.i
 
 CMakeFiles/c_libs.dir/Function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_libs.dir/Function.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kai/CLionProjects/HPK_c_libs/c_libs/Function.cpp -o CMakeFiles/c_libs.dir/Function.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/Function.cpp -o CMakeFiles/c_libs.dir/Function.cpp.s
 
 CMakeFiles/c_libs.dir/Integrator.cpp.o: CMakeFiles/c_libs.dir/flags.make
 CMakeFiles/c_libs.dir/Integrator.cpp.o: ../Integrator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/c_libs.dir/Integrator.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/Integrator.cpp.o -c /Users/Kai/CLionProjects/HPK_c_libs/c_libs/Integrator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/c_libs.dir/Integrator.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/Integrator.cpp.o -c /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/Integrator.cpp
 
 CMakeFiles/c_libs.dir/Integrator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_libs.dir/Integrator.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kai/CLionProjects/HPK_c_libs/c_libs/Integrator.cpp > CMakeFiles/c_libs.dir/Integrator.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/Integrator.cpp > CMakeFiles/c_libs.dir/Integrator.cpp.i
 
 CMakeFiles/c_libs.dir/Integrator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_libs.dir/Integrator.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kai/CLionProjects/HPK_c_libs/c_libs/Integrator.cpp -o CMakeFiles/c_libs.dir/Integrator.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/Integrator.cpp -o CMakeFiles/c_libs.dir/Integrator.cpp.s
 
 CMakeFiles/c_libs.dir/JavaFunction.cpp.o: CMakeFiles/c_libs.dir/flags.make
 CMakeFiles/c_libs.dir/JavaFunction.cpp.o: ../JavaFunction.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/c_libs.dir/JavaFunction.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/JavaFunction.cpp.o -c /Users/Kai/CLionProjects/HPK_c_libs/c_libs/JavaFunction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/c_libs.dir/JavaFunction.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/JavaFunction.cpp.o -c /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/JavaFunction.cpp
 
 CMakeFiles/c_libs.dir/JavaFunction.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_libs.dir/JavaFunction.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kai/CLionProjects/HPK_c_libs/c_libs/JavaFunction.cpp > CMakeFiles/c_libs.dir/JavaFunction.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/JavaFunction.cpp > CMakeFiles/c_libs.dir/JavaFunction.cpp.i
 
 CMakeFiles/c_libs.dir/JavaFunction.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_libs.dir/JavaFunction.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kai/CLionProjects/HPK_c_libs/c_libs/JavaFunction.cpp -o CMakeFiles/c_libs.dir/JavaFunction.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/JavaFunction.cpp -o CMakeFiles/c_libs.dir/JavaFunction.cpp.s
 
 CMakeFiles/c_libs.dir/main.cpp.o: CMakeFiles/c_libs.dir/flags.make
 CMakeFiles/c_libs.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/c_libs.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/main.cpp.o -c /Users/Kai/CLionProjects/HPK_c_libs/c_libs/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/c_libs.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/c_libs.dir/main.cpp.o -c /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/main.cpp
 
 CMakeFiles/c_libs.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/c_libs.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kai/CLionProjects/HPK_c_libs/c_libs/main.cpp > CMakeFiles/c_libs.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/main.cpp > CMakeFiles/c_libs.dir/main.cpp.i
 
 CMakeFiles/c_libs.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/c_libs.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kai/CLionProjects/HPK_c_libs/c_libs/main.cpp -o CMakeFiles/c_libs.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/main.cpp -o CMakeFiles/c_libs.dir/main.cpp.s
 
 # Object files for target c_libs
 c_libs_OBJECTS = \
@@ -185,7 +185,7 @@ libc_libs.dylib: CMakeFiles/c_libs.dir/JavaFunction.cpp.o
 libc_libs.dylib: CMakeFiles/c_libs.dir/main.cpp.o
 libc_libs.dylib: CMakeFiles/c_libs.dir/build.make
 libc_libs.dylib: CMakeFiles/c_libs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library libc_libs.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX shared library libc_libs.dylib"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_libs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -198,6 +198,6 @@ CMakeFiles/c_libs.dir/clean:
 .PHONY : CMakeFiles/c_libs.dir/clean
 
 CMakeFiles/c_libs.dir/depend:
-	cd /Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Kai/CLionProjects/HPK_c_libs/c_libs /Users/Kai/CLionProjects/HPK_c_libs/c_libs /Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug /Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug /Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles/c_libs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/CMakeFiles/c_libs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/c_libs.dir/depend
 

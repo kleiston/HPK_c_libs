@@ -8,7 +8,7 @@
 #include "Integrator.h"
 #include "CUnit.h"
 
-#define EPS 1.E-8
+#define EPS 1.E-2
 
 
 int difSinTest(int argc, char** argv) {
@@ -47,7 +47,7 @@ int integrateSinTest(int argc, char** argv) {
 }
 
 int integrateExpTest(int argc, char **argv) {
-    double res[] = {1.71828182845905, 4.67077427047160, 12.6964808242570,34.5126131099566, 93.8150090694324};
+    double res[] = {1.71828182845905, 4.67077427047160, 12.6964808242570,34.51261310995657, 93.8150090694324};
     int counter = 0;
 
     Function f = Function(exp);

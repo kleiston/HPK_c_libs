@@ -36,6 +36,7 @@ CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.o: ../JavaFunction.h
 CMakeFiles/c_libs.dir/de_lab4inf_wrb_Integrator.cpp.o: ../de_lab4inf_wrb_Integrator.cpp
 
 CMakeFiles/c_libs.dir/main.cpp.o: ../CUnit.h
+CMakeFiles/c_libs.dir/main.cpp.o: ../DiffIntTest.cpp
 CMakeFiles/c_libs.dir/main.cpp.o: ../Differentiator.h
 CMakeFiles/c_libs.dir/main.cpp.o: ../Function.h
 CMakeFiles/c_libs.dir/main.cpp.o: ../Integrator.h

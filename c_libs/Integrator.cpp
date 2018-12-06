@@ -11,6 +11,7 @@ int maxSteps = 12;
 bool convergenceIntegrator(double resOld, double resNew, int step, double eps) {
 	double differenceIntegrated = fabs(resOld-resNew);
 	if (step > maxSteps) throw "no convergence";
+	if(fabs((resOld-resNew)/((resNew+resOld)/2)) < eps) return true;
 	return eps > differenceIntegrated;
 }
 

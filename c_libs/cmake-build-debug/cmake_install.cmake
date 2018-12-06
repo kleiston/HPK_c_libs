@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Kai/CLionProjects/HPK_c_libs/c_libs
+# Install script for directory: /Users/lucashintze/CLionProjects/HPK_c_libs/c_libs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/Kai/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/lucashintze/CLionProjects/HPK_c_libs/c_libs/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
