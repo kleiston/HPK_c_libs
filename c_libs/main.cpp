@@ -4,7 +4,7 @@
 #include "Integrator.h"
 #include "CUnit.h"
 #include "math.h"
-//#include "DiffIntTest.cpp"
+#include "DiffIntTest.cpp"
 
 #define EPS 1.E-8
 
@@ -57,14 +57,23 @@ void testFunction(Function &fct, double incrementCount, double incrementMax) {
 }
 
 
+double test(double x) {
+    return x*sin(1/x);
+}
+
+
+/*
 int main( int argc, const char* argv[] ) {
     Function functions[] = {Function(xSquare, "sqr"), Function(xExp, "exp"), Function(xSin, "sin"),
                             Function(xTan, "tan")};
 
     double increments[4][2] = {{0.25,1}, {1,10}, {0.3927,3.1416}, {0.1963,0.7854}};
 
+    Function fct = Function(test);
+
     for(int i = 0; i< 4; i++) {
         testFunction(functions[i],increments[i][0], increments[i][1]);
 
     }
 }
+ */

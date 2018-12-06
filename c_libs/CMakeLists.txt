@@ -24,7 +24,6 @@ add_executable(c_exec
         JavaFunction.h
         main.cpp)
 
-
 add_library(c_libs SHARED
         CUnit.c
         CUnit.h
