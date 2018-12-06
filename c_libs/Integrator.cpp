@@ -13,8 +13,13 @@ bool convergenceIntegrator(double resOld, double resNew, int step, double eps) {
 		const char *error = "no convergence";
 		throw error;
 	}
-	if(fabs((resOld-resNew)/((resNew+resOld)/2)) < eps) return true;
-	return eps > fabs(resOld-resNew);
+	double differenceAbsolute = fabs(resNew-resOld);
+	/*
+	 * absolute error margin divided by the actual result:
+	 * assuming that an average value of resNew and resOld is the actual result
+	 */
+	if(eps > differenceAbsolute/((resNew+resOld)/2)) return true;
+	return eps > differenceAbsolute;
 }
 
 double integrate(Function& f, double a, double b, double eps) {
@@ -30,11 +35,10 @@ double integrate(Function& f, double a, double b, double eps) {
 			sum2 = 0;
 
 			for (int j = 0; j < n; j++) {
+				if (j!=0) sum1 += f(a + h * j);
 				sum2 += f(((a + h * j) + (a + h * (j+1)))/2);
-				if (j==0) continue;
-				sum1 += f(a + h * j);
 			}
-
+			// "rule of simpson" integrale, shortened
 			resNew = (h/6) * (fa + fb + 2 * sum1 + 4*  sum2);
 
 		} while(!convergenceIntegrator(resOld, resNew, ++counter, eps));
