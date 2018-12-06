@@ -8,7 +8,7 @@
 #include "Integrator.h"
 #include "CUnit.h"
 
-#define EPS 1.E-2
+#define EPS 1.E-8
 
 
 int difSinTest(int argc, char** argv) {
@@ -38,22 +38,22 @@ int difSqrtTest(int argc, char** argv) {
 }
 
 int integrateSinTest(int argc, char** argv) {
-    double results[] = { 0.459697694, 0.956449142, 0.573845660, -0.33634887, -0.93730580};
+    double results[] = { 0, 0.4596976941318603, 1.416146836547142, 1.989992496600446, 1.653643620863612};
     Function f = Function(sin);
     for(int i = 0; i <= 4; i += 1) {
-        assertEqualsF(integrate(f,i,i+1,EPS), results[i], EPS);
+        assertEqualsF(integrate(f,0,i,EPS), results[i], EPS);
     }
     return 0;
 }
 
 int integrateExpTest(int argc, char **argv) {
-    double res[] = {1.71828182845905, 4.67077427047160, 12.6964808242570,34.51261310995657, 93.8150090694324};
+    double res[] = {0, 1.718281828459045, 6.38905609893065, 19.08553692318767, 53.5981500509};
     int counter = 0;
 
     Function f = Function(exp);
 
     for(int i = 0; i <= 4; i += 1) {
-        assertEqualsF(integrate(f, i, i + 1., EPS),res[i],EPS);
+        assertEqualsF(integrate(f, 0, i, EPS),res[i],EPS);
     }
     return 0;
 }
